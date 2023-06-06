@@ -1,0 +1,42 @@
+   60  pwd
+   61  ls
+   62  cd Desktop/
+   63  mkdir 20230605-LeonardoSandoval
+   64  ls 20230605-LeonardoSandoval/
+   65  cd 20230605-LeonardoSandoval/
+   66  git remote add origin https://github.com/bitr0m/20230605-LeonardoSandoval.git~
+   67  git init .
+   68  git remote add origin https://github.com/bitr0m/20230605-LeonardoSandoval.git
+   69  touch comandos.txt main.js index.html
+   70  ls
+   71  git add .
+   72  git commit -m "commit 01 de LeonardoSandoval"
+   73  git push -u origin main
+   74  git checkout feature
+   75* git
+   76  git checkout feature
+   77  mkdir Hardware Software SeguridadInformatica
+   78  ls
+   79  cd Hardware/
+   80  touch resumen.txt
+   81  ls
+   82  cd ..
+   83  cd SeguridadInformatica/
+   84  touch resumen.txt
+   85  cd ..
+   86  cd Software/
+   87  touch resumen.txt
+   88  cd ..
+   89  ls -R
+   90  git add .
+   91  git commit -m "commit 02 de LeonardoSandoval"
+   92* git push
+   93  git push -u origin feature
+   94  git checkout main  
+   95  mv main.js resumenHardware.txt
+   96  ls
+   97  mv index.html resumenSoftware.txt
+   98  ls
+   99  nano resumenSoftware.txt
+  100  nano resumenHardware.txt
+  101  history
